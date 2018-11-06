@@ -8,15 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="taotao-common" />
         <module name="taotao-dao" />
+        <module name="taotao-pojo" />
         <module name="taotao-service" />
+        <module name="taotao-web" />
+        <module name="taotaointerface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="service" target="1.7" />
       <module name="taotao-service" target="1.7" />
+      <module name="taotao-web" target="1.7" />
       <module name="taotaocommon" target="1.7" />
       <module name="taotaodao" target="1.7" />
       <module name="taotaoservice" target="1.7" />
+      <module name="taotaoweb" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

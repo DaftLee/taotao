@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/taotao-service/taotao-service.iml" filepath="$PROJECT_DIR$/taotao-service/taotao-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-web/taotao-web.iml" filepath="$PROJECT_DIR$/taotao-web/taotao-web.iml" />
     </modules>
   </component>
 </project>

@@ -10,8 +10,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>taotao-service</module>
-        <module>taotao-service</module>
-        <module>taotao-service</module>
+        <module>taotao-pojo</module>
+        <module>taotao-interface</module>
+        <module>taotao-web</module>
+        <module>taotao-dao</module>
+        <module>taotao-common</module>
+        <module>taotao-web</module>
     </modules>
     <dependencyManagement>
         <dependencies>

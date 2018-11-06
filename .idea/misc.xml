@@ -13,6 +13,7 @@
       <set>
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/taotao-service/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-web/pom.xml" />
       </set>
     </option>
   </component>
