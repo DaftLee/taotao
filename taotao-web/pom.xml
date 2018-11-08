@@ -12,10 +12,6 @@
     <artifactId>taotao-web</artifactId>
     <packaging>war</packaging>
 
-    <!--<name>taotao-web Maven Webapp</name>-->
-    <!--&lt;!&ndash; FIXME change it to the project's website &ndash;&gt;-->
-    <!--<url>http://www.example.com</url>-->
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
@@ -29,44 +25,96 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+        </dependency>
+        <!--<dependency>-->
+        <!--<groupId>org.springframework</groupId>-->
+        <!--<artifactId>spring-aspects</artifactId>-->
+        <!--<version>${spring-version}</version>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-expression</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-instrument</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-instrument-tomcat</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jms</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-messaging</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-oxm</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc-portlet</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-websocket</artifactId>
+        </dependency>
 
-    <!--<build>-->
-        <!--<finalName>taotao-web</finalName>-->
-        <!--<pluginManagement>&lt;!&ndash; lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) &ndash;&gt;-->
-            <!--<plugins>-->
-                <!--<plugin>-->
-                    <!--<artifactId>maven-clean-plugin</artifactId>-->
-                    <!--<version>3.0.0</version>-->
-                <!--</plugin>-->
-                <!--&lt;!&ndash; see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging &ndash;&gt;-->
-                <!--<plugin>-->
-                    <!--<artifactId>maven-resources-plugin</artifactId>-->
-                    <!--<version>3.0.2</version>-->
-                <!--</plugin>-->
-                <!--<plugin>-->
-                    <!--<artifactId>maven-compiler-plugin</artifactId>-->
-                    <!--<version>3.7.0</version>-->
-                <!--</plugin>-->
-                <!--<plugin>-->
-                    <!--<artifactId>maven-surefire-plugin</artifactId>-->
-                    <!--<version>2.20.1</version>-->
-                <!--</plugin>-->
-                <!--<plugin>-->
-                    <!--<artifactId>maven-war-plugin</artifactId>-->
-                    <!--<version>3.2.0</version>-->
-                <!--</plugin>-->
-                <!--<plugin>-->
-                    <!--<artifactId>maven-install-plugin</artifactId>-->
-                    <!--<version>2.5.2</version>-->
-                <!--</plugin>-->
-                <!--<plugin>-->
-                    <!--<artifactId>maven-deploy-plugin</artifactId>-->
-                    <!--<version>2.8.2</version>-->
-                <!--</plugin>-->
-            <!--</plugins>-->
-        <!--</pluginManagement>-->
-    <!--</build>-->
+        <!--servlet：api-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
+    </dependencies>
 
     <build>
         <plugins>

@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c943584-5c61-4dca-b4f8-6909d47f8b4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/taotao-controller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-service/src/main/resources/mybatis/sqlMapperConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-service/src/main/resources/properties/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-service/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="0c943584-5c61-4dca-b4f8-6909d47f8b4d" name="Default Changelist" comment="applicatiaonContext">
+      <change afterPath="$PROJECT_DIR$/taotao-service/src/main/java/aaa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-common/target/taotao-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/target/taotao-common-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-dao/target/maven-archiver/pom.properties" afterDir="false" />
@@ -23,13 +16,14 @@
       <change beforePath="$PROJECT_DIR$/taotao-pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-pojo/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-pojo/target/taotao-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-pojo/target/taotao-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-service/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-service/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-service/taotao-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-service/taotao-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-service/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taotao-service/target/taotao-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-service/target/taotao-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-web/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-web/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-web/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-web/target/tomcat/logs/access_log.2018-11-06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taotao-web/taotao-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-web/taotao-web.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,51 +45,57 @@
     <session id="-1447819946">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.8" value="5" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="2" />
           <entry key="fxml" value="1" />
           <entry key="iml" value="1" />
+          <entry key="java" value="2" />
           <entry key="jsp" value="2" />
           <entry key="pom" value="6" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="43" />
+          <entry key="xml" value="55" />
           <entry key="xsd" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="2" />
           <entry key="JSP" value="2" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="52" />
+          <entry key="XML" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="java" value="15" />
           <entry key="jsp" value="5" />
           <entry key="properties" value="121" />
-          <entry key="txt" value="33" />
-          <entry key="xml" value="980" />
+          <entry key="txt" value="52" />
+          <entry key="xml" value="1097" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JAVA" value="15" />
           <entry key="JSP" value="5" />
-          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="PLAIN_TEXT" value="52" />
           <entry key="Properties" value="121" />
-          <entry key="XML" value="980" />
+          <entry key="XML" value="1097" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -108,28 +108,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotao-service/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/taotao-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="112" column="25" lean-forward="true" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
+            <state relative-caret-position="160">
+              <caret line="54" selection-start-line="54" selection-end-line="142" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotao-service/pom.xml">
+        <entry file="file://$PROJECT_DIR$/taotao-service/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/taotao-web/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -137,17 +137,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-trans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="80">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-dao.xml">
+        <entry file="file://$PROJECT_DIR$/taotao-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="71" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="71" />
+            <state relative-caret-position="192">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="188" column="10" selection-start-line="188" selection-start-column="10" selection-end-line="201" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -160,6 +169,7 @@
         <option value="FxmlFile" />
         <option value="sqlMapperConfig" />
         <option value="applicationContext" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -178,17 +188,19 @@
         <option value="$PROJECT_DIR$/taotao-dao/pom.xml" />
         <option value="$PROJECT_DIR$/taotao-interface/pom.xml" />
         <option value="$PROJECT_DIR$/taotao-web/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/taotao-web/pom.xml" />
         <option value="$PROJECT_DIR$/taotao-service/src/main/resources/mybatis/sqlMapperConfig.xml.fxml" />
         <option value="$PROJECT_DIR$/taotao-service/src/main/resources/mybatis/sqlMapperConfig.xml" />
         <option value="$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext.xml" />
         <option value="$PROJECT_DIR$/taotao-service/src/main/resources/properties/db.properties" />
         <option value="$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-trans.xml" />
-        <option value="$PROJECT_DIR$/taotao-service/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/taotao-service/src/main/java/aaa.java" />
+        <option value="$PROJECT_DIR$/taotao-service/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/taotao-service/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-web/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/taotao-web/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -224,11 +236,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="90" />
+    <option name="y" value="137" />
     <option name="width" value="1785" />
-    <option name="height" value="1011" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -256,26 +268,76 @@
               <item name="taotao-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotaoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotaoparent" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541584032494" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541587105928" />
     <property name="last_opened_file_path" value="$USER_HOME$/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3/META-INF/dubbo.xsd" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -487,7 +549,13 @@
       <workItem from="1541574914809" duration="6168000" />
       <workItem from="1541583784243" duration="428000" />
       <workItem from="1541584233669" duration="365000" />
-      <workItem from="1541584625036" duration="938000" />
+      <workItem from="1541584625036" duration="1197000" />
+      <workItem from="1541586081789" duration="312000" />
+      <workItem from="1541586417557" duration="698000" />
+      <workItem from="1541642231897" duration="113000" />
+      <workItem from="1541642367630" duration="254000" />
+      <workItem from="1541642644153" duration="592000" />
+      <workItem from="1541643260055" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1541405261481</created>
@@ -531,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541500149203</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="applicatiaonContext">
+      <created>1541585919771</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541585919771</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -546,7 +621,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39550000" />
+    <option name="totallyTimeSpent" value="42393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,10 +633,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="18" width="1440" height="815" extended-state="0" />
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31910276" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3182724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -579,9 +654,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32959327" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24340177" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23314607" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50033224" side_tool="true" weight="0.34410113" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286517" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3286517" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3286517" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -604,7 +679,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建项目" />
     <MESSAGE value="创建项目1" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建项目1" />
+    <MESSAGE value="applicatiaonContext" />
+    <option name="LAST_COMMIT_MESSAGE" value="applicatiaonContext" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/service/pom.xml" />
@@ -682,22 +758,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.3.RELEASE/spring-aop-4.3.3.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -706,31 +768,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="11" column="71" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="71" />
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-trans.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03.jar!/org/springframework/web/context/ContextLoaderListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="96">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-service/src/main/java/aaa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="112" column="25" lean-forward="true" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
+        <state relative-caret-position="248">
+          <caret line="188" column="10" selection-start-line="188" selection-start-column="10" selection-end-line="201" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="54" selection-start-line="54" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-service/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
