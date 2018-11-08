@@ -8,13 +8,10 @@
 		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
     <import resource="classpath:spring/applicationContext-dao.xml"/>
 
-
     <!-- 配置dubbo的应用名称 -->
     <dubbo:application name="taotao-service" />
     <!-- 配置注册中心地址 -->
     <dubbo:registry protocol="zookeeper" address="zookeeper://dafty.club:21811?backup=dafty.club:21812,dafty.club:21813"  />
-
-
     <!-- 配置dubbo扫描包 -->
     <dubbo:annotation package="com.taotao.service" />
     <context:component-scan base-package="com.taotao.service"></context:component-scan>
