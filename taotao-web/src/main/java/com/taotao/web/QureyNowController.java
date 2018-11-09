@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class QureyNowController {
 
     @Reference
-    TestService testService;
+    private TestService testService;
 
     @RequestMapping(value = "/test")
     @ResponseBody

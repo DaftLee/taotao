@@ -1,9 +1,9 @@
 package com.taotao.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.taotao.mapper.QureyNowMapper;
 import com.taotao.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 @Service
 public class TestServiceImpl implements TestService {
@@ -14,6 +14,7 @@ public class TestServiceImpl implements TestService {
     public String qureyNow() {
 
         System.out.println("testcore");
+        System.out.println(qureyNowMapper);
         return qureyNowMapper.qureyNow();
     }
 }
