@@ -6,6 +6,9 @@
     <file type="web" url="file://$PROJECT_DIR$/taotao-web" />
     <type id="Spring" />
   </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -16,7 +19,7 @@
     </option>
   </component>
   <component name="ProjectResources">
-    <resource url="http://code.alibabatech.com/schema/dubbo/dubbo.xsd" location="$USER_HOME$/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3/META-INF/dubbo.xsd" />
+    <resource url="http://code.alibabatech.com/schema/dubbo/dubbo.xsd" location="$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3/META-INF/dubbo.xsd" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
