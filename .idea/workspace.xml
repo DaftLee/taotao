@@ -1,77 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c943584-5c61-4dca-b4f8-6909d47f8b4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/taotao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbContentCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbContentCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbContentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbContentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbItemCatMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbItemCatMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbItemDescMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbItemDescMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbItemParamItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbItemParamItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbItemParamMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbItemParamMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbOrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbOrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbOrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbOrderShippingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbOrderShippingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbContentCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbContentCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbContentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbItemCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbItemCatExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbItemDesc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbItemDescExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbItemParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbItemParamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbItemParamItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbItemParamItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbOrderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbOrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbOrderItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbOrderShipping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbOrderShippingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbUserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-common/target/taotao-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-common/target/taotao-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-dao/target/taotao-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-dao/target/taotao-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-interface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-interface/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-interface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-interface/target/taotao-interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-interface/target/taotao-interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-pojo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-pojo/target/taotao-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-pojo/target/taotao-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-service/taotao-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/taotao-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotao-web/taotao-web.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="0c943584-5c61-4dca-b4f8-6909d47f8b4d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/taotao-dao/target/" />
@@ -156,9 +86,9 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -193,12 +123,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbItemParam.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="358">
-              <caret line="147" column="49" lean-forward="true" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
+              <caret line="147" column="49" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -329,7 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,15 +266,11 @@
               <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
               <item name="taotao" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taotao" type="462c0819:PsiDirectoryNode" />
-              <item name="taotao-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -588,6 +513,7 @@
       <workItem from="1541726799737" duration="6537000" />
       <workItem from="1542003082417" duration="3491000" />
       <workItem from="1542010677066" duration="1184000" />
+      <workItem from="1542012047891" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1541405261481</created>
@@ -666,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542011158770</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="mybatis逆向生成pojo和mapper">
+      <created>1542012068004</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1542012068005</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -681,7 +614,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72959000" />
+    <option name="totallyTimeSpent" value="73268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -694,9 +627,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33222592" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33687708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -714,8 +646,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.33236575" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32959327" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2322206" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50033224" side_tool="true" weight="0.34410113" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49966776" weight="0.23174158" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50033224" side_tool="true" visible="true" weight="0.23174158" />
       <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32848838" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3286517" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
@@ -804,96 +736,36 @@
     <option name="LAST_COMMIT_MESSAGE" value="mybatis逆向生成pojo和mapper" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbItemDescMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbOrderItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbItemParamItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbItemCatMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbOrderShippingMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbItemParamMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbContentCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbContentMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbItemDescMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbOrderItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbItemParamItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbItemCatMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbOrderShippingMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbItemParamMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbContentCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbContentMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbItemCat.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbOrderExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/mapper/TbItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbItemParamExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbOrderShipping.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbItemParamItemExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/mapper/TbOrderItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbItemCatExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbContentCategory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/mapper/TbItemCatMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbItemMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbItemDescMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbOrderItemMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbItemParamItemMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbItemCatMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbOrderShippingMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbItemParamMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbContentCategoryMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbUserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/mapper/TbContentMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbItemMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbItemDescMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbOrderItemMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbItemParamItemMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbItemCatMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbOrderShippingMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbItemParamMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbContentCategoryMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbUserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/mapper/TbContentMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbItemCat.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbOrderExample.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/mapper/TbItemMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbItemParamExample.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbOrderShipping.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbItemParamItemExample.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/mapper/TbOrderItemMapper.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbItemCatExample.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/pojo/TbContentCategory.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/taotao/mapper/TbItemCatMapper.java" />
     <entry file="file://$PROJECT_DIR$/taotao-dao/src/main/java/com/taotao/mapper/TbItemDescMapper.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -925,9 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -966,7 +835,7 @@
     <entry file="file://$PROJECT_DIR$/taotao-pojo/src/java/com/taotao/pojo/TbItemParam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
-          <caret line="147" column="49" lean-forward="true" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
+          <caret line="147" column="49" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
         </state>
       </provider>
     </entry>
