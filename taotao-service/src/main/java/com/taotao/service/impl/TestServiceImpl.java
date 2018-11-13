@@ -5,7 +5,7 @@ import com.taotao.mapper.QureyNowMapper;
 import com.taotao.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 
-@Service
+@Service(timeout = 1200000)
 public class TestServiceImpl implements TestService {
     @Autowired
     private QureyNowMapper qureyNowMapper;

@@ -20,7 +20,6 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/taotao-pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/taotao-service/pom.xml" />
       </set>
     </option>
   </component>
