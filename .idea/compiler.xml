@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="taotao-common" />
-        <module name="taotao-controller" />
         <module name="taotao-dao" />
         <module name="taotao-interface" />
         <module name="taotao-pojo" />
@@ -18,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="service" target="1.7" />
+      <module name="taotao-controller" target="1.8" />
       <module name="taotao-pojo" target="1.8" />
       <module name="taotaocommon" target="1.7" />
       <module name="taotaodao" target="1.7" />
