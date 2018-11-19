@@ -14,6 +14,7 @@
         <module>taotao-web</module>
         <module>taotao-dao</module>
         <module>taotao-common</module>
+        <module>taotao-util</module>
     </modules>
 
     <properties>
@@ -225,6 +226,29 @@
                 <version>${jackson.version}</version>
             </dependency>
             <!-- *********/jackson 依赖************** -->
+
+            <!-- *********FastDFS 依赖************** -->
+            <dependency>
+                <groupId>org.csource</groupId>
+                <artifactId>fastdfs-client-java</artifactId>
+                <version>1.27-RELEASE</version>
+            </dependency>
+            <!-- *********/FastDFS 依赖************** -->
+
+            <!-- *********文件上传 依赖************** -->
+            <dependency>
+                <groupId>commons-fileupload</groupId>
+                <artifactId>commons-fileupload</artifactId>
+                <version>1.3.2</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.4</version>
+            </dependency>
+
+
+            <!-- *********/文件上传 依赖************** -->
 
         </dependencies>
     </dependencyManagement>

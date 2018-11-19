@@ -16,6 +16,7 @@ public class ItemController {
     @RequestMapping(value = "/item/list",method = RequestMethod.GET)
     @ResponseBody
     public EasyUIDataGridResult getItemList(Integer page , Integer rows){
+        System.out.println(itemService);
         return itemService.getItemList(page, rows);
     }
 }
