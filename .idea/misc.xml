@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/taotao-service" />
-    <file type="web" url="file://$PROJECT_DIR$/taotao-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-manager-service" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-portal-web" />
     <type id="Spring" />
   </component>
   <component name="JavaScriptSettings">
@@ -13,14 +14,22 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/taotao-dao/pom.xml" />
         <option value="$PROJECT_DIR$/taotao-common/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-service/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-util/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-web/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-manager-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-manager-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/taotao-controller/pom.xml" />
-        <option value="$PROJECT_DIR$/taotao-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-portal-web/pom.xml" />
       </set>
     </option>
   </component>
